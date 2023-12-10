@@ -34,7 +34,7 @@ public class SecurityConfig {
   private final AuthenticationManager authenticationManager;
 
   public SecurityConfig(
-      @Qualifier("userDetailsUseCase") UserDetailsService userDetailsService,
+      @Qualifier("customUserDetailsService") UserDetailsService userDetailsService,
       BCryptPasswordEncoder bCryptPasswordEncoder,
       @Lazy AuthenticationManager authenticationManager) {
     this.userDetailsService = userDetailsService;

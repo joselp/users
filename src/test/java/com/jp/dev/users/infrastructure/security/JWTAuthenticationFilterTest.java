@@ -8,7 +8,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jp.dev.users.application.user.request.UserRequest;
+import com.jp.dev.users.controller.user.request.UserRequest;
 import com.jp.dev.users.domain.user.Role;
 import com.jp.dev.users.infrastructure.entity.UserEntity;
 import jakarta.servlet.FilterChain;

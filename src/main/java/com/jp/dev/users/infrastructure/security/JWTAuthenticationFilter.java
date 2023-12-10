@@ -7,7 +7,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jp.dev.commons.exceptions.NotFoundException;
-import com.jp.dev.users.application.user.request.UserRequest;
+import com.jp.dev.users.controller.user.request.UserRequest;
 import com.jp.dev.users.domain.token.Token;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

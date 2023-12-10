@@ -1,9 +1,9 @@
-package com.jp.dev.users.application.user;
+package com.jp.dev.users.controller.user;
 
 import com.jp.dev.commons.annotations.WebAdapter;
 import com.jp.dev.commons.exceptions.BadRequestException;
-import com.jp.dev.users.application.user.request.UserRequest;
-import com.jp.dev.users.application.user.response.UserResponse;
+import com.jp.dev.users.controller.user.request.UserRequest;
+import com.jp.dev.users.controller.user.response.UserResponse;
 import com.jp.dev.users.domain.ports.in.UserCrudPort;
 import com.jp.dev.users.domain.ports.in.UsernamesPort;
 import com.jp.dev.users.domain.user.Role;

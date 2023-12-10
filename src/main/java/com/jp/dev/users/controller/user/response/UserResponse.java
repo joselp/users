@@ -1,4 +1,4 @@
-package com.jp.dev.users.application.user.response;
+package com.jp.dev.users.controller.user.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

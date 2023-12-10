@@ -1,4 +1,4 @@
-package com.jp.dev.users.application.user.request;
+package com.jp.dev.users.controller.user.request;
 
 import com.jp.dev.users.domain.user.Role;
 import jakarta.validation.constraints.NotBlank;
